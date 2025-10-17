@@ -34,7 +34,7 @@ import { salaryGenerateUpdateZodSchema } from "@/Features/Payroll/validations/sa
 import { cn } from "@/lib/utils";
 import { useAppDispatch, useAppSelector } from "@/Redux/hook";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { format } from "date-fns";
+import { format, parseISO } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { useForm } from "react-hook-form";
 import type z from "zod";
@@ -49,8 +49,8 @@ const EditSalaryGenerateForm = () => {
     resolver: zodResolver(salaryGenerateUpdateZodSchema),
     values: {
       name: prevData?.name || "",
-      startDate: prevData?.startDate as unknown as Date,
-      endDate: prevData?.endDate as unknown as Date,
+      startDate: prevData?.startDate ? parseISO(prevData?.startDate) : "",
+      endDate: prevData?.endDate ? parseISO(prevData?.endDate) : "",
       generateBy: prevData?.generateBy || "",
     },
   });
