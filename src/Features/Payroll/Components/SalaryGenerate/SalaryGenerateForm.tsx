@@ -46,7 +46,7 @@ import { useRef } from "react";
 import { useForm } from "react-hook-form";
 import type z from "zod";
 
-const SalarayGenerateForm = () => {
+const SalaryGenerateForm = () => {
   const { employees } = useAppSelector(selectSalaryGenerateData);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
   const dispatch = useAppDispatch();
@@ -314,4 +314,4 @@ const SalarayGenerateForm = () => {
   );
 };
 
-export default SalarayGenerateForm;
+export default SalaryGenerateForm;

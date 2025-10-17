@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import SalarayGenerateForm from "@/Features/Payroll/Components/SalaryGenerate/SalarayGenerateForm";
+import SalaryGenerateForm from "@/Features/Payroll/Components/SalaryGenerate/SalaryGenerateForm";
 import SalaryGenerateTable from "@/Features/Payroll/Components/SalaryGenerate/SalaryGenerateTable";
 
 const SalaryGenerate = () => {
@@ -9,7 +9,7 @@ const SalaryGenerate = () => {
         <div className="flex justify-between items-center border-b py-3 px-4">
           <h2 className="text-xl font-semibold">Salary Generate</h2>
           <div className="flex items-center gap-3">
-            <SalarayGenerateForm />
+            <SalaryGenerateForm />
             <Button>Manage Salary Generate</Button>
           </div>
         </div>
