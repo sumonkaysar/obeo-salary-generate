@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import type { IGeneratedSalary } from "@/Features/Recruitment/types/salary-generate.type";
+import type { IGeneratedSalary } from "@/Features/Payroll/types/salary-generate.type";
 import { cn } from "@/lib/utils";
 import type { Column } from "@tanstack/react-table";
 import { ArrowDownAZ, ArrowUpDown, ArrowUpZA } from "lucide-react";

@@ -1,4 +1,4 @@
-import salaryGenerateReducer from "@/Features/Recruitment/recruitmentSlices/SalaryGenerate.slice";
+import salaryGenerateReducer from "@/Features/Payroll/payrollSlices/SalaryGenerate.slice";
 import { baseApi } from "@/Redux/baseApi";
 import { configureStore } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query";

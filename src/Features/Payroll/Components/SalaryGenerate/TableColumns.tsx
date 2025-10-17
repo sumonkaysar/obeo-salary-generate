@@ -1,6 +1,6 @@
-import TableActions from "@/Features/Recruitment/Components/SalaryGenerate/TableActions";
-import TableColumnHeader from "@/Features/Recruitment/Components/SalaryGenerate/TableColumnHeader";
-import type { IGeneratedSalary } from "@/Features/Recruitment/types/salary-generate.type";
+import TableActions from "@/Features/Payroll/Components/SalaryGenerate/TableActions";
+import TableColumnHeader from "@/Features/Payroll/Components/SalaryGenerate/TableColumnHeader";
+import type { IGeneratedSalary } from "@/Features/Payroll/types/salary-generate.type";
 import type { ColumnDef } from "@tanstack/react-table";
 import { format } from "date-fns";
 

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import SalarayGenerateForm from "@/Features/Recruitment/Components/SalaryGenerate/SalarayGenerateForm";
-import SalaryGenerateTable from "@/Features/Recruitment/Components/SalaryGenerate/SalaryGenerateTable";
+import SalarayGenerateForm from "@/Features/Payroll/Components/SalaryGenerate/SalarayGenerateForm";
+import SalaryGenerateTable from "@/Features/Payroll/Components/SalaryGenerate/SalaryGenerateTable";
 
 const SalaryGenerate = () => {
   return (

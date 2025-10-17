@@ -35,8 +35,8 @@ import {
 import {
   generateSalary,
   selectSalaryGenerateData,
-} from "@/Features/Recruitment/recruitmentSlices/SalaryGenerate.slice";
-import { salaryGenerateZodSchema } from "@/Features/Recruitment/validations/salary-generate.validation";
+} from "@/Features/Payroll/payrollSlices/SalaryGenerate.slice";
+import { salaryGenerateZodSchema } from "@/Features/Payroll/validations/salary-generate.validation";
 import { cn } from "@/lib/utils";
 import { useAppDispatch, useAppSelector } from "@/Redux/hook";
 import { zodResolver } from "@hookform/resolvers/zod";

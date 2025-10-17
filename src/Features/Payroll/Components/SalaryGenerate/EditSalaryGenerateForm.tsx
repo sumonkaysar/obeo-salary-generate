@@ -28,9 +28,9 @@ import {
   editSalaryGenerate,
   removeGenerateEditId,
   selectSalaryGenerateData,
-} from "@/Features/Recruitment/recruitmentSlices/SalaryGenerate.slice";
-import type { IGeneratedSalary } from "@/Features/Recruitment/types/salary-generate.type";
-import { salaryGenerateUpdateZodSchema } from "@/Features/Recruitment/validations/salary-generate.validation";
+} from "@/Features/Payroll/payrollSlices/SalaryGenerate.slice";
+import type { IGeneratedSalary } from "@/Features/Payroll/types/salary-generate.type";
+import { salaryGenerateUpdateZodSchema } from "@/Features/Payroll/validations/salary-generate.validation";
 import { cn } from "@/lib/utils";
 import { useAppDispatch, useAppSelector } from "@/Redux/hook";
 import { zodResolver } from "@hookform/resolvers/zod";

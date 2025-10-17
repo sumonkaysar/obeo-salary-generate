@@ -1,4 +1,4 @@
-import SalaryGenerate from "@/Features/Recruitment/Pages/SalaryGenerate";
+import SalaryGenerate from "@/Features/Payroll/Pages/SalaryGenerate";
 
 function App() {
   return <SalaryGenerate />;

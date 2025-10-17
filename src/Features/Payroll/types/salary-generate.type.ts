@@ -1,5 +1,5 @@
-import type { ITableState } from "@/Features/Recruitment/types";
-import type { IEmployee } from "@/Features/Recruitment/types/employee.type";
+import type { ITableState } from "@/Features/Payroll/types";
+import type { IEmployee } from "@/Features/Payroll/types/employee.type";
 
 export interface IGeneratedSalary {
   _id: string;

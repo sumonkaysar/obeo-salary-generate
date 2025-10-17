@@ -6,19 +6,19 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import ConfirmDeleteDialog from "@/Features/Recruitment/Components/SalaryGenerate/ConfirmDeleteDialog";
-import EditSalaryGenerateForm from "@/Features/Recruitment/Components/SalaryGenerate/EditSalaryGenerateForm";
-import SearchData from "@/Features/Recruitment/Components/SalaryGenerate/SearchData";
-import ShowEntries from "@/Features/Recruitment/Components/SalaryGenerate/ShowEntries";
-import { tableColumns } from "@/Features/Recruitment/Components/SalaryGenerate/TableColumns";
-import TablePagination from "@/Features/Recruitment/Components/SalaryGenerate/TablePagination";
+import ConfirmDeleteDialog from "@/Features/Payroll/Components/SalaryGenerate/ConfirmDeleteDialog";
+import EditSalaryGenerateForm from "@/Features/Payroll/Components/SalaryGenerate/EditSalaryGenerateForm";
+import SearchData from "@/Features/Payroll/Components/SalaryGenerate/SearchData";
+import ShowEntries from "@/Features/Payroll/Components/SalaryGenerate/ShowEntries";
+import { tableColumns } from "@/Features/Payroll/Components/SalaryGenerate/TableColumns";
+import TablePagination from "@/Features/Payroll/Components/SalaryGenerate/TablePagination";
 import {
   deleteSalaryGenerate,
   removeGenerateDeleteId,
   selectSalaryGenerateData,
   updateTableState,
-} from "@/Features/Recruitment/recruitmentSlices/SalaryGenerate.slice";
-import type { IGeneratedSalary } from "@/Features/Recruitment/types/salary-generate.type";
+} from "@/Features/Payroll/payrollSlices/SalaryGenerate.slice";
+import type { IGeneratedSalary } from "@/Features/Payroll/types/salary-generate.type";
 import { useAppDispatch, useAppSelector } from "@/Redux/hook";
 import {
   flexRender,

@@ -1,7 +1,7 @@
-import { employeesData } from "@/Features/Recruitment/consts/employees.const";
-import { generatedSalariesData } from "@/Features/Recruitment/consts/salary-generate.const";
-import type { ITableState } from "@/Features/Recruitment/types";
-import type { ISalaryGenrateState } from "@/Features/Recruitment/types/salary-generate.type";
+import { employeesData } from "@/Features/Payroll/consts/employees.const";
+import { generatedSalariesData } from "@/Features/Payroll/consts/salary-generate.const";
+import type { ITableState } from "@/Features/Payroll/types";
+import type { ISalaryGenrateState } from "@/Features/Payroll/types/salary-generate.type";
 import type { RootState } from "@/Redux/store";
 import { createSlice, current, type PayloadAction } from "@reduxjs/toolkit";
 import type { Updater } from "@tanstack/react-table";

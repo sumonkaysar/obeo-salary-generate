@@ -8,7 +8,7 @@ import {
 import {
   selectGenerateDeleteId,
   selectGenerateEditId,
-} from "@/Features/Recruitment/recruitmentSlices/SalaryGenerate.slice";
+} from "@/Features/Payroll/payrollSlices/SalaryGenerate.slice";
 import { useAppDispatch } from "@/Redux/hook";
 import { MoreVertical } from "lucide-react";
 
